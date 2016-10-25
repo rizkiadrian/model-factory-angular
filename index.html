@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<section ng-app="myApp">
+<div ng-controller="mainController">
+<h3>Player One</h3>
+Name : <span ng-bind="PlayerOne.name"></span>
+<br />
+Current Blood : <span ng-bind="PlayerOne.blood"></span>
+<br />
+<h3>Player Two</h3>
+Name : <span ng-bind="PlayerTwo.name"></span>
+<br />
+Current Blood : <span ng-bind="PlayerTwo.blood"></span>
+<br />
+</div>
+</section>
+<script src="js/shared/angular.js"></script>
+<script src="js/controllers/mainController.js"></script>
+</body>
+</html>
